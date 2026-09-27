@@ -43,7 +43,7 @@ Jika ingin membukanya lagi, maka cara aktifkan kembali Jupyter Notebook yaitu:
 conda activate statprob
 jupyter notebook
 ```
-Kemudian buat Folder Baru: `proyek1-eda-kelompok-08`
+Kemudian buat Folder Baru: `proyek1-eda-kelompok-13`
 
 ## Cara Menjalankan Notebook
 1. Clone repositori ini ke komputer lokal:
