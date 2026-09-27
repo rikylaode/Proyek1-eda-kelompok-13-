@@ -72,22 +72,10 @@ Untuk dataset `dataset_phishing.csv`, Ringkasan statistik:
 3. **Keseimbangan Kelas Data:** Dataset ini memiliki jumlah data yang seimbang sempurna (50% *legitimate* dan 50% *phishing*), sehingga siap digunakan untuk pemodelan tanpa membutuhkan teknik *resampling*.
 
 ## Kesimpulan
-Bisa dilihat dari hasil temuan utama dataset phising ini bahwa URL dari situs *phising* memiliki banyak karakteristik menonjol yang sangat membedakannya dengan URL situs *legitimate*, seperti halnya panjang URL, nama domain, jumlah titik yang lebih banyak, karakter yang bervariasi dan panjang, serta yang lain. 
+Dari analisis statistik deskriptif pada 11.430 URL, dapat disimpulkan:
 
-## Kesimpulan
-Berdasarkan hasil analisis statistik deskriptif terhadap dataset phishing yang terdiri dari 11.430 URL, dapat disimpulkan beberapa poin penting yang membedakan secara signifikan antara URL situs phishing dan legitimate:
-
-1. Distribusi Panjang URL dan Hostname yang Miring ke Kanan (Right-Skewed)
-Analisis terhadap variabel length_url dan length_hostname menunjukkan bahwa distribusinya tidak normal, melainkan miring ke kanan. Hal ini dibuktikan dengan nilai Mean yang jauh lebih besar daripada Median (contoh: Mean length_url = 61.13, Median = 47.0). Ini mengindikasikan adanya sejumlah besar data dengan nilai ekstrem (outliers) atau URL yang sangat panjang. URL dengan panjang yang ekstrem ini adalah ciri khas dari situs phishing, di mana pelaku kejahatan siber sering kali menambahkan banyak karakter, subdomain, atau parameter palsu untuk mengelabui pengguna dan sistem deteksi otomatis.
-Karakteristik Unik pada URL Phishing
-Situs phishing cenderung memiliki karakteristik yang lebih kompleks dan tidak wajar dibandingkan situs legitimate. Hal ini terlihat dari:
-
-2. Panjang URL dan Hostname: URL phishing memiliki rata-rata dan variasi panjang karakter yang lebih tinggi. Situs legitimate umumnya menggunakan URL yang pendek, jelas, dan mudah diingat, sedangkan phishing seringkali menggunakan URL yang panjang dan rumit untuk menyembunyikan domain asli atau meniru situs resmi.
-Jumlah Titik (.): Variabel nb_dots juga menunjukkan bahwa URL phishing memiliki jumlah titik yang lebih banyak. Jumlah titik yang berlebihan (seperti pada http://www.netflix.com.akun-update.login-bantuan.id/) adalah indikasi kuat adanya subdomain bertingkat yang tidak wajar, yang sering digunakan untuk membuat URL terlihat seolah-olah merupakan bagian dari situs resmi.
-3. Keseimbangan Kelas Data yang Sempurna
-Dataset ini memiliki distribusi kelas yang sangat seimbang, dengan 50% data merupakan URL legitimate dan 50% lainnya adalah URL phishing (masing-masing 5.715 data). Keseimbangan ini merupakan keuntungan besar untuk tahap pemodelan klasifikasi selanjutnya, karena model tidak akan bias terhadap salah satu kelas dan tidak memerlukan teknik resampling (seperti oversampling atau undersampling) untuk menangani ketidakseimbangan data.
-4. Kualitas Data yang Baik
-Proses pemeriksaan data menunjukkan bahwa dataset ini tidak memiliki nilai yang kosong (missing value) maupun data duplikat. Hal ini menandakan bahwa dataset sudah bersih dan siap digunakan untuk analisis lebih lanjut tanpa memerlukan tahap pembersihan data yang kompleks.
-5. Implikasi untuk Deteksi Phishing
-Secara keseluruhan, analisis ini berhasil mengidentifikasi fitur-fitur statistik yang sangat relevan untuk membedakan URL phishing dan legitimate. Fitur-fitur seperti length_url, length_hostname, dan nb_dots dapat menjadi prediktor yang kuat dalam membangun model machine learning untuk deteksi phishing. Pemahaman mendalam tentang pola-pola ini menjadi fondasi penting dalam pengembangan sistem keamanan siber yang lebih proaktif dan akurat dalam mengidentifikasi ancaman phishing sebelum korban terjebak.
-
+1. **Distribusi miring ke kanan (right-skewed):** Nilai Mean length_url (61.13) jauh lebih besar dari Median (47.0), menandakan adanya outliers berupa URL yang sangat panjang bentuk ciri khas phishing.
+2. **URL phishing lebih kompleks:** Memiliki panjang URL, hostname, dan jumlah titik (nb_dots) yang lebih tinggi dibanding situs legitimate. Contoh: http://shishadetreetechnology.com/V4/... (baris ke-2 dataset). Ini digunakan untuk menyembunyikan domain asli atau meniru situs resmi.
+3. **Data seimbang sempurna:** 50% legitimate dan 50% phishing (masing-masing 5.715 data). Tidak perlu teknik resampling untuk pemodelan.
+4. **Data bersih:** Tidak ada missing value maupun duplikat, siap digunakan untuk analisis lanjutan.
+5. **Implikasi:** Fitur length_url, length_hostname, dan nb_dots dapat menjadi prediktor kuat untuk membangun model machine learning deteksi phishing.
