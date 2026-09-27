@@ -71,7 +71,7 @@ Untuk dataset `dataset_phishing.csv`, Ringkasan statistik:
 2. **Karakteristik URL Phishing:** URL kategori *phishing* cenderung memiliki variasi panjang karakter yang jauh lebih tinggi dan jumlah titik (`nb_dots`) yang lebih banyak dibandingkan URL *legitimate*.
 3. **Keseimbangan Kelas Data:** Dataset ini memiliki jumlah data yang seimbang sempurna (50% *legitimate* dan 50% *phishing*), sehingga siap digunakan untuk pemodelan tanpa membutuhkan teknik *resampling*.
 
-## Konklusi
+## Kesimpulan
 Bisa dilihat dari hasil temuan utama dataset phising ini bahwa URL dari situs *phising* memiliki banyak karakteristik menonjol yang sangat membedakannya dengan URL situs *legitimate*, seperti halnya panjang URL, nama domain, jumlah titik yang lebih banyak, karakter yang bervariasi dan panjang, serta yang lain. 
 
 
