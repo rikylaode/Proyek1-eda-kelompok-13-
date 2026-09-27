@@ -58,7 +58,7 @@ Kemudian buat Folder Baru: `proyek1-eda-kelompok-08`
    git clone [https://github.com/username/proyek1-eda-kelompok-13.git](https://github.com/username/proyek1-eda-kelompok-13.git)
 
 ## Data yang Kita Peroleh Untuk Pengecekan
-
+Untuk dataset `dataset_phishing.csv`, Ringkasan statistik:
 | | length_url | length_hostname | nb_dots |
 |---|---|---|---|
 | **Mean** | 61.126684 | 21.090289 | 2.480752 |
