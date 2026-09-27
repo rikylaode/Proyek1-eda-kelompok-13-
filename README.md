@@ -50,6 +50,31 @@ Kemudian buat Folder Baru: `proyek1-eda-kelompok-13`
    ```bash
    git clone [https://github.com/username/proyek1-eda-kelompok-13.git](https://github.com/username/proyek1-eda-kelompok-13.git)
 
+## Catatan
+**1. length_url (Panjang URL)**
+
+Apa itu? Jumlah total karakter yang menyusun sebuah URL, dihitung dari awal (http:// atau https://) sampai karakter terakhir.
+Contoh:
+
+https://google.com → 18 karakter
+http://shadetreetechnology.com/V4/validation/a111aedc8ae390eabcfa130e041a10a4 → 77 karakter
+**2. length_hostname (Panjang Hostname)**
+
+Apa itu? Jumlah karakter pada bagian hostname saja, yaitu nama domain utama + subdomain, tanpa http://, path, atau parameter.
+Cara hitung: Ambil bagian setelah :// sampai sebelum / pertama.
+Contoh:
+
+https://www.bi.go.id/id/default.aspx → hostname = www.bi.go.id → 12 karakter
+https://login.facebook.com.akun-terverifikasi.id/masuk/aman.html → hostname = login.facebook.com.akun-terverifikasi.id → 40 karakter
+**3. nb_dots (Jumlah Titik)**
+
+Apa itu? Jumlah karakter titik (.) yang ada di dalam URL. Titik di sini hanya titik pemisah domain, bukan titik dua (:) atau titik di path file.
+Contoh:
+
+https://www.netflix.com → 2 titik
+http://www.netflix.com.akun-update.login-bantuan.id/session/index.php → 6 titik
+
+
 ## Data yang Kita Peroleh Untuk Pengecekan
 Untuk dataset `dataset_phishing.csv`, Ringkasan statistik:
 | | length_url | length_hostname | nb_dots |
@@ -65,6 +90,8 @@ Untuk dataset `dataset_phishing.csv`, Ringkasan statistik:
 | **Q1** | 33.000000 | 15.000000 | 2.000000 |
 | **Q3** | 71.000000 | 24.000000 | 3.000000 |
 | **IQR** | 38.000000 | 9.000000 | 1.000000 |
+
+Dari 87 fitur yang tersedia, dipilih length_url, length_hostname, dan nb_dots karena ketiganya bersifat numerik kontinu sehingga langsung bisa dianalisis dengan statistik deskriptif seperti mean, median, dan variance. Ketiga variabel ini juga saling melengkapi, di mana length_url mewakili panjang keseluruhan URL, length_hostname mewakili panjang domain, dan nb_dots mewakili struktur titik/subdomain. Selain itu, ketiganya merupakan indikator klasik yang paling sering digunakan untuk membedakan URL phishing dan legitimate, mudah divisualisasikan dalam bentuk histogram maupun boxplot, serta menghindari fitur biner atau rasio yang kurang cocok untuk analisis deskriptif dasar.
 
 ## 3 Temuan Utama
 1. **Ketidakseimbangan Sebaran Panjang URL (Right-Skewed):** Baik panjang total URL (`length_url`) maupun panjang nama domain (`length_hostname`) memiliki distribusi miring ke kanan. Nilai rata-rata jauh lebih besar daripada median akibat adanya pencilan (*outliers*) bernilai ekstrem pada URL tertentu.
