@@ -4,9 +4,9 @@
 ## Identitas Kelompok
 * **Nomor Kelompok:** Kelompok 13
 * **Anggota Kelompok:**
-  1. La Ode Muh. Baharizqi Ma'rufi - 5027261086
-  2. Marsha Daruningtyas - 5027261056
-  3. Farras Hazim Ramadhan - 5027261132
+  > La Ode Muh. Baharizqi Ma'rufi - 5027261086
+  >  Marsha Daruningtyas - 5027261056
+  >  Farras Hazim Ramadhan - 5027261132
 
 ---
 
