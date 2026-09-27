@@ -35,7 +35,7 @@ Dataset ini sangat menarik untuk dianalisis karena ancaman kejahatan siber berba
 
 ---
 
-## Konklusi dari 3 Temuan Utama
+## Konklusi
 Bisa dilihat dari hasil temuan utama dataset phising ini bahwa URL dari situs *phising* memiliki banyak karakteristik menonjol yang sangat membedakannya dengan URL situs *legitimate*, seperti halnya panjang URL, nama domain, jumlah titik yang lebih banyak, karakter yang bervariasi dan panjang, serta yang lain. 
 
 ---
