@@ -34,6 +34,11 @@ Dataset ini sangat menarik untuk dianalisis karena ancaman kejahatan siber berba
 3. **Keseimbangan Kelas Data:** Dataset ini memiliki jumlah data yang seimbang sempurna (50% *legitimate* dan 50% *phishing*), sehingga siap digunakan untuk pemodelan tanpa membutuhkan teknik *resampling*.
 
 ---
+
+## Konklusi dari 3 Temuan Utama
+Bisa dilihat dari hasil temuan utama dataset phising ini bahwa URL dari situs *phising* memiliki banyak karakteristik menonjol yang sangat membedakannya dengan URL situs *legitimate*, seperti halnya panjang URL, nama domain, jumlah titik yang lebih banyak, karakter yang bervariasi dan panjang, serta yang lain. 
+
+---
 ## Cara Instalasi 
 Gunakan environment mata kuliah:
 ```bash
