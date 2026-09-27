@@ -36,6 +36,21 @@ Dataset ini sangat menarik untuk dianalisis karena ancaman kejahatan siber berba
 ---
 ## Cara Instalasi 
 Gunakan environment mata kuliah:
+```bash
+conda create -n statprob python=3.11 -y
+conda activate statprob
+conda install -c conda-forge jupyter pandas matplotlib seaborn -y
+```
+Jalankan :
+```bash
+jupyter notebook
+```
+Jika ingin membukanya lagi, maka cara aktifkan kembali Jupyter Notebook yaitu:
+```bash
+conda activate statprob
+jupyter notebook
+```
+Kemudian buat Folder Baru: `proyek1-eda-kelompok-08`
 
 ## Cara Menjalankan Notebook
 1. Clone repositori ini ke komputer lokal:
