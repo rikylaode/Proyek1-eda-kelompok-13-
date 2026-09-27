@@ -34,6 +34,8 @@ Dataset ini sangat menarik untuk dianalisis karena ancaman kejahatan siber berba
 3. **Keseimbangan Kelas Data:** Dataset ini memiliki jumlah data yang seimbang sempurna (50% *legitimate* dan 50% *phishing*), sehingga siap digunakan untuk pemodelan tanpa membutuhkan teknik *resampling*.
 
 ---
+## Cara Instalasi 
+Gunakan environment mata kuliah:
 
 ## Cara Menjalankan Notebook
 1. Clone repositori ini ke komputer lokal:
