@@ -56,3 +56,6 @@ Kemudian buat Folder Baru: `proyek1-eda-kelompok-08`
 1. Clone repositori ini ke komputer lokal:
    ```bash
    git clone [https://github.com/username/proyek1-eda-kelompok-13.git](https://github.com/username/proyek1-eda-kelompok-13.git)
+
+## Data yang Kits Peroleh Untuk Prngecekan
+
