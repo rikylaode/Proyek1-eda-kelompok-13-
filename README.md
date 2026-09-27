@@ -58,6 +58,7 @@ Contoh:
 
 https://google.com → 18 karakter
 http://shadetreetechnology.com/V4/validation/a111aedc8ae390eabcfa130e041a10a4 → 77 karakter
+
 **2. length_hostname (Panjang Hostname)**
 
 Apa itu? Jumlah karakter pada bagian hostname saja, yaitu nama domain utama + subdomain, tanpa http://, path, atau parameter.
@@ -66,6 +67,7 @@ Contoh:
 
 https://www.bi.go.id/id/default.aspx → hostname = www.bi.go.id → 12 karakter
 https://login.facebook.com.akun-terverifikasi.id/masuk/aman.html → hostname = login.facebook.com.akun-terverifikasi.id → 40 karakter
+
 **3. nb_dots (Jumlah Titik)**
 
 Apa itu? Jumlah karakter titik (.) yang ada di dalam URL. Titik di sini hanya titik pemisah domain, bukan titik dua (:) atau titik di path file.
