@@ -65,6 +65,12 @@ nb_dots artinya jumlah karakter titik (.) yang ada di url. website pada umumnya 
 
 ## Bagaimana cara menghitung url length, hostname length dam nb dots? gini caranya:
 
+1. url length cukup dihitung semua karakternya (termasuk karakter khusus seperti (.), (/), (:), dll contoh: https://www.instagram.com/accounts/login -> totalnya ada 40 karakter https://instagram-security-verifications-panel.net/secure-login
+
+2. hostname length sebelum menghitung, pisahkan nama domain utama dari struktur URL, kemudian hitung jumlah karakternya contoh: https://www.bi.go.id/id/default.aspx -> hapus "https://" dan "/id/default.aspx" dari url utama lalu hitung (www.bi.go.id totalnya ada 12) https://login.facebook.com.akun-terverifikasi.id/masuk/aman.html -> pisahkan "https://" dan "/masuk/aman.html" dari url utama lalu hitung (login.facebook.com.akun-terverifikasi.id totalnya ada 40)
+
+3. nb dots cukup hitung titiknya saya(bukan titik dua(:) ya) contoh: https://www.netflix.com -> ada 2 titik http://www.netflix.com.akun-update.login-bantuan.id/session/index.php -> ada 6 titik
+
 
 
 ## Data yang Kita Peroleh Untuk Pengecekan
