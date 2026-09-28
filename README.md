@@ -52,29 +52,13 @@ Kemudian buat Folder Baru: `proyek1-eda-kelompok-13`
 
 ## Catatan
 **1. length_url (Panjang URL)**
+length url artinya seberapa panjang url nya. situs web biasanya menggunakan url yang mudah diingat, sedangan pelaku phising menggunakan url yang lebih panjang karena memmuat sesuatu (berupa kata kata palsu atau kode unik untuk menipu korban). karena panjang url terlalu tinggi, sistem akan mendeteksinya sebagai ancaman (dalam kasus ini link phising). contoh: https://google.com vs http://com-security-update.xyz karena terlalu panjang, maka sistem akan mendeteksinya sebagai sebuah ancaman.
 
-Apa itu? Jumlah total karakter yang menyusun sebuah URL, dihitung dari awal (http:// atau https://) sampai karakter terakhir.
-Contoh:
+**2. length hostname**
+length hostname artinya nama khusus di bagian hostname saja (domain utama + subdomain). Sama seperti URL, pelaku phising membuat length hostname yang panjang agar menyerupai perusahaan asli. Length hostname yang panjang juga mengindikasikan adanya penipuan (dalam kasus ini phising) contoh: ://tokopedia.com vs ://paypal-update-security-login-system.com link kedua memiliki length hostname yang terlalu panjang, oleh karena itu sistem mendeteksinya sebagai phising.
 
-https://google.com → 18 karakter
-http://shadetreetechnology.com/V4/validation/a111aedc8ae390eabcfa130e041a10a4 → 77 karakter
-
-**2. length_hostname (Panjang Hostname)**
-
-Apa itu? Jumlah karakter pada bagian hostname saja, yaitu nama domain utama + subdomain, tanpa http://, path, atau parameter.
-Cara hitung: Ambil bagian setelah :// sampai sebelum / pertama.
-Contoh:
-
-https://www.bi.go.id/id/default.aspx → hostname = www.bi.go.id → 12 karakter
-https://login.facebook.com.akun-terverifikasi.id/masuk/aman.html → hostname = login.facebook.com.akun-terverifikasi.id → 40 karakter
-
-**3. nb_dots (Jumlah Titik)**
-
-Apa itu? Jumlah karakter titik (.) yang ada di dalam URL. Titik di sini hanya titik pemisah domain, bukan titik dua (:) atau titik di path file.
-Contoh:
-
-https://www.netflix.com → 2 titik
-http://www.netflix.com.akun-update.login-bantuan.id/session/index.php → 6 titik
+**3. nb_dots**
+nb_dots artinya jumlah karakter titik (.) yang ada di url. website pada umumnya menggunakan 3 karakter titik saja (seperti ://domain.com). namun, pelaku phising menggunakan subdomain dengan banyak titik untuk mengelabuhi targetnya (misalnya: ://konfirmasi-data.com). Jika jumlah dots terlalu banyak, maka sistem akah mendeteksi bahwa link ini adalah phising
 
 
 ## Data yang Kita Peroleh Untuk Pengecekan
