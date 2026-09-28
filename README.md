@@ -63,6 +63,9 @@ length hostname artinya nama khusus di bagian hostname saja (domain utama + subd
 
 nb_dots artinya jumlah karakter titik (.) yang ada di url. website pada umumnya menggunakan 3 karakter titik saja (seperti ://domain.com). namun, pelaku phising menggunakan subdomain dengan banyak titik untuk mengelabuhi targetnya (misalnya: ://konfirmasi-data.com). Jika jumlah dots terlalu banyak, maka sistem akah mendeteksi bahwa link ini adalah phising
 
+## Bagaimana cara menghitung url length, hostname length dam nb dots? gini caranya:
+
+
 
 ## Data yang Kita Peroleh Untuk Pengecekan
 Untuk dataset `dataset_phishing.csv`, Ringkasan statistik:
