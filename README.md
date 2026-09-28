@@ -50,6 +50,13 @@ Kemudian buat Folder Baru: `proyek1-eda-kelompok-13`
    ```bash
    git clone [https://github.com/username/proyek1-eda-kelompok-13.git](https://github.com/username/proyek1-eda-kelompok-13.git)
 
+
+
+###tabel
+
+
+
+
 ## Catatan
 **1. length_url (Panjang URL)**
 
