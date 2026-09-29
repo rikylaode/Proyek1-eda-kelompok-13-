@@ -115,7 +115,7 @@ nb_dots artinya jumlah karakter titik (.) yang ada di url. website pada umumnya 
 
 2. hostname length sebelum menghitung, pisahkan nama domain utama dari struktur URL, kemudian hitung jumlah karakternya contoh: https://www.bi.go.id/id/default.aspx -> hapus "https://" dan "/id/default.aspx" dari url utama lalu hitung (www.bi.go.id totalnya ada 12) https://login.facebook.com.akun-terverifikasi.id/masuk/aman.html -> pisahkan "https://" dan "/masuk/aman.html" dari url utama lalu hitung (login.facebook.com.akun-terverifikasi.id totalnya ada 40)
 
-3. nb dots cukup hitung titiknya saya(bukan titik dua(:) ya) contoh: https://www.netflix.com -> ada 2 titik http://www.netflix.com.akun-update.login-bantuan.id/session/index.php -> ada 6 titik
+3. nb dots cukup hitung titiknya saja (bukan titik dua(:)) contoh: https://www.netflix.com -> ada 2 titik http://www.netflix.com.akun-update.login-bantuan.id/session/index.php -> ada 6 titik
 
 
 
@@ -145,7 +145,7 @@ Dari 87 fitur yang tersedia, dipilih length_url, length_hostname, dan nb_dots ka
 2. **Karakteristik URL Phishing:** URL kategori *phishing* cenderung memiliki variasi panjang karakter yang jauh lebih tinggi dan jumlah titik (`nb_dots`) yang lebih banyak dibandingkan URL *legitimate*.
 3. **Keseimbangan Kelas Data:** Dataset ini memiliki jumlah data yang seimbang sempurna (50% *legitimate* dan 50% *phishing*), sehingga siap digunakan untuk pemodelan tanpa membutuhkan teknik *resampling*.
 
-**Dari analisis statistik deskriptif pada 11.430 URL, 5 temuan utama yang didapat yaitu:**
+**5 Temuan utama:**
 1. **Distribusi miring ke kanan (right-skewed):** Nilai Mean length_url (61.13) jauh lebih besar dari Median (47.0), menandakan adanya outliers berupa URL yang sangat panjang bentuk ciri khas phishing.
 2. **URL phishing lebih kompleks:** Memiliki panjang URL, hostname, dan jumlah titik (nb_dots) yang lebih tinggi dibanding situs legitimate. Contoh: https://login.facebook.com.akun-terverifikasi.id/masuk/aman.html. Ini digunakan untuk menyembunyikan domain asli atau meniru situs resmi.
 3. **Data seimbang sempurna:** 50% legitimate dan 50% phishing (masing-masing 5.715 data). Tidak perlu teknik resampling untuk pemodelan.
