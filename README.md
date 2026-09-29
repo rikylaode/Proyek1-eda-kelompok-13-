@@ -167,8 +167,9 @@ Dari 87 fitur yang tersedia, dipilih length_url, length_hostname, dan nb_dots ka
 **Catatan penggunaan AI**
 | **Alat** | **Dipakai untuk** | **Yang kami pelajari** |
 |---|---|---|
-| **ChatGPT** | Mempertanyakan mengapa koding tidak berjalan | Koding belum terselesaikan karena belum ditutup (]) |
+| **ChatGPT** | Mempertanyakan mengapa koding tidak berjalan | Koding belum terselesaikan karena belum ditutup (']') |
 | **Gemini** | Mempertanyakan mengapa terjadi error | Menjalankan koding saat variabel df belum pernah dibuat |
 | **Gemini** | Menanyakan cara menjalankan Jupyter Notebook lewat cmd anaconda prompt | Aktifkan environment dahulu, pastikan Jupyter Notebook terinstall, dan jalankan |
 | **Gemini** | Menanyakan kenapa tidak dapat memasukkan dataset dari penyimpanan desktop | File dapat tidak terbaca dan spelling error menjadi alasan |
-| **Gemini** | Kenapa dataset tidak dapat ditemukan | 
+| **Gemini** | Kenapa dataset tidak dapat ditemukan | File ekstensi bisa disembunyikan dan menggunakan relative path bisa tidak berjalan |
+| **Gemini** | Cara supaya dataset terbaca | Memakai Absolute Path dengan `os` atau `pathlib` dan nyalakan file ekstensi |
