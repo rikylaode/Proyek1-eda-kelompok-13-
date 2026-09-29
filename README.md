@@ -162,3 +162,13 @@ Dari 87 fitur yang tersedia, dipilih length_url, length_hostname, dan nb_dots ka
 1. https://www.youtube.com/watch?v=XCvgyvBFjyM&t=290s > Install Miniconda (Python) with Jupyter Notebook and Setting Up Virtual Environments on Windows 10
 2. https://github.com/boedybios/kaggle_explorations > kaggle_explorations (Modul publik untuk dasar kodingan python)
 3. https://youtu.be/Op3019SFYzI?si=x3Ov0o9lH8Ko4E4d > Exploratory Data Analysis, Visualisasi Data, Klasifikassi | Machine Learning
+
+
+**Catatan penggunaan AI**
+| **Alat** | **Dipakai untuk** | **Yang kami pelajari** |
+|---|---|---|
+| **ChatGPT** | Mempertanyakan mengapa koding tidak berjalan | Koding belum terselesaikan karena belum ditutup (]) |
+| **Gemini** | Mempertanyakan mengapa terjadi error | Menjalankan koding saat variabel df belum pernah dibuat |
+| **Gemini** | Menanyakan cara menjalankan Jupyter Notebook lewat cmd anaconda prompt | Aktifkan environment dahulu, pastikan Jupyter Notebook terinstall, dan jalankan |
+| **Gemini** | Menanyakan kenapa tidak dapat memasukkan dataset dari penyimpanan desktop | File dapat tidak terbaca dan spelling error menjadi alasan |
+| **Gemini** | Kenapa dataset tidak dapat ditemukan | 
