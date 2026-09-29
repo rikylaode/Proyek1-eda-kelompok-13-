@@ -24,9 +24,9 @@ c. 7 from querying external services
 
 | | Arti | Jenis Variabel | Skala | Contoh |
 |---|---|---|---|---|
-| **length_url** | Panjang karakter URL | Rasio | 37 |
-| **length_hostname** | Panjang host URL | Rasio | 19 |
-| **nb_dots** | Jumlah karakter titik di URL | Rasio | 3 |
+| **length_url** | Panjang karakter URL | Kuantitatif | Rasio | 37 |
+| **length_hostname** | Panjang host URL |Kuantitatif | Rasio | 19 |
+| **nb_dots** | Jumlah karakter titik di URL | Kuantitatif | Rasio | 3 |
 
 ## Latar Belakang & Pertanyaan Analisis
 
