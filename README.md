@@ -15,6 +15,18 @@
 * **Sumber Dataset:** Kaggle - Web Phishing Detection Dataset
 * **Link Dataset:** https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset
 * **Lisensi:** Open Data Commons Attribution License (ODC-By)
+* **Kontributor data:** Abdelhakim Hannousse, Salima Yahiouche
+* **Tanggal publish:** 26 Juni 2021 (V3)
+* **Sumber data yang di ekstrak:**
+a. 56 from structure and syntax of URLs
+b. 24 from the content of their correspondent pages
+c. 7 from querying external services
+
+| | Arti | Jenis Variabel | Skala | Contoh |
+|---|---|---|---|---|
+| **length_url** | Panjang karakter URL | Rasio | 37 |
+| **length_hostname** | Panjang host URL | Rasio | 19 |
+| **nb_dots** | Jumlah karakter titik di URL | Rasio | 3 |
 
 ## Latar Belakang & Pertanyaan Analisis
 
