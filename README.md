@@ -159,5 +159,6 @@ Dari 87 fitur yang tersedia, dipilih length_url, length_hostname, dan nb_dots ka
 
 ## Referensi dan catatan AI
 **Referensi belajar:**
-1. https://github.com/boedybios/kaggle_explorations > Modul publik untuk dasar codingan python
-2. https://youtu.be/Op3019SFYzI?si=x3Ov0o9lH8Ko4E4d > Exploratory Data Analysis, Visualisasi Data, Klasifikassi | Machine Learning
+1. https://www.youtube.com/watch?v=XCvgyvBFjyM&t=290s > Install Miniconda (Python) with Jupyter Notebook and Setting Up Virtual Environments on Windows 10
+2. https://github.com/boedybios/kaggle_explorations > kaggle_explorations (Modul publik untuk dasar kodingan python)
+3. https://youtu.be/Op3019SFYzI?si=x3Ov0o9lH8Ko4E4d > Exploratory Data Analysis, Visualisasi Data, Klasifikassi | Machine Learning
