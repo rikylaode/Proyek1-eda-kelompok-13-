@@ -162,8 +162,7 @@ Dari 87 fitur yang tersedia, dipilih length_url, length_hostname, dan nb_dots ka
 5. **Implikasi:** Fitur length_url, length_hostname, dan nb_dots dapat menjadi prediktor kuat untuk membangun model machine learning deteksi phishing.
 
 **Pertanyaan lanjutan untuk analisis berikutnya:**
-1. Perbandingan panjang rata rata url antara legitimate dan phising
-2. Perbandingan adanya IP adress di url legitimate dan phising
+1. Perbandingan adanya IP adress di url legitimate dan phising
 
 
 ## Referensi dan catatan AI
