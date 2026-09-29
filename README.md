@@ -45,6 +45,33 @@ jupyter notebook
 ```
 Kemudian buat Folder Baru: `proyek1-eda-kelompok-13`
 
+Jangan lupa download library yang dibutuhkan
+* pandas
+* matplotlib
+* seaborn
+
+Cara mendownload library
+```bash
+conda install <nama_library>
+```
+Setelah prosesnya selesai, akan muncul perintah:
+```bash
+Proceed ([y]/n)? 
+```
+Ketik "y", lalu akan muncul tulisan:
+```bash
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+WARNING conda.conda_pypi.main:notify_externally_managed_future(156):
+  Did you know? You can install many PyPI packages with conda
+  using the conda-pypi beta. Get started:
+    https://docs.conda.io/projects/conda/en/stable/new-features.html
+```
+Ini menandakan kalau library pythonnya sudah terinstall. Jangan lupa lakukan hal yang sama ke library lainnya.
+
 ## Cara Menjalankan Notebook
 1. Clone repositori ini ke komputer lokal:
    ```bash
