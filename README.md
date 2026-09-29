@@ -155,3 +155,9 @@ Dari 87 fitur yang tersedia, dipilih length_url, length_hostname, dan nb_dots ka
 **Pertanyaan lanjutan untuk analisis berikutnya:**
 1. Perbandingan panjang rata rata url antara legitimate dan phising
 2. Perbandingan adanya IP adress di url legitimate dan phising
+
+
+## Referensi dan catatan AI
+**Referensi belajar:**
+1. https://github.com/boedybios/kaggle_explorations > Modul publik untuk dasar codingan python
+2. https://youtu.be/Op3019SFYzI?si=x3Ov0o9lH8Ko4E4d > Exploratory Data Analysis, Visualisasi Data, Klasifikassi | Machine Learning
