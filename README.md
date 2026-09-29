@@ -150,4 +150,6 @@ Dari analisis statistik deskriptif pada 11.430 URL, dapat disimpulkan:
 3. **Data seimbang sempurna:** 50% legitimate dan 50% phishing (masing-masing 5.715 data). Tidak perlu teknik resampling untuk pemodelan.
 4. **Data bersih:** Tidak ada missing value maupun duplikat, siap digunakan untuk analisis lanjutan.
 5. **Implikasi:** Fitur length_url, length_hostname, dan nb_dots dapat menjadi prediktor kuat untuk membangun model machine learning deteksi phishing.
-6. **Perbandingan panjang rata rata url antara legitimate dan phising:** 
+------------------------------------------------------------------------------------
+6. **Perbandingan panjang rata rata url antara legitimate dan phising:**
+7. **Perbandingan adanya IP adress di url legitimate dan phising:**
