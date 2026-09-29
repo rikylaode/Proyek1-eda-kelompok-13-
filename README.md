@@ -59,12 +59,12 @@ Kemudian buat Folder Baru: `proyek1-eda-kelompok-13`
 
 Jangan lupa download library yang dibutuhkan
 * pandas
-* matplotlib
+* matplotlib.pyplot
 * seaborn
 
 Cara mendownload library
 ```bash
-conda install <nama_library>
+conda install library
 ```
 Setelah prosesnya selesai, akan muncul perintah:
 ```bash
