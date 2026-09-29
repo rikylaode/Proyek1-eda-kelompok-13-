@@ -59,7 +59,7 @@ Kemudian buat Folder Baru: `proyek1-eda-kelompok-13`
 
 Jangan lupa download library yang dibutuhkan
 * pandas
-* matplotlib.pyplot
+* matplotlib
 * seaborn
 
 Cara mendownload library
