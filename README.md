@@ -33,6 +33,15 @@ c. 7 from querying external services
 ### Latar Belakang
 Dataset ini sangat menarik untuk dianalisis karena ancaman kejahatan siber berbasis *phishing* kian marak dan makin sulit dideteksi secara kasat mata. Dataset ini merangkum **11.430 baris data URL** yang diekstraksi ke dalam **89 fitur teknis**, mencakup atribut struktur URL (seperti panjang nama domain dan jumlah karakter khusus), karakteristik HTML/halaman web, hingga indikator pihak ketiga seperti indeks Google dan nilai PageRank. Mempelajari pola statistik dari atribut-atribut tersebut memungkinkan kita untuk memahami perbedaan mendasar antara situs web resmi (*legitimate*) dan situs kejahatan (*phishing*), yang menjadi pijakan awal penting sebelum membangun model klasifikasi otomatis.
 
+### Tujuan Analisis
+Tujuan dari analisis ini adalah:
+
+1. Mengetahui karakteristik sebaran data pada variabel numerik utama, yaitu `length_url`, `length_hostname`, dan `nb_dots`, yang mencakup ukuran pemusatan dan ukuran penyebaran.
+2. Menganalisis apakah URL phishing cenderung memiliki panjang karakter (`length_url`) yang lebih besar dan variasi yang lebih tinggi dibandingkan URL legitimate.
+3. Mengetahui distribusi dan proporsi kelas pada variabel target `status`, yaitu phishing dan legitimate.
+4. Menyajikan visualisasi deskriptif untuk membantu memahami pola awal karakteristik URL.
+5. Menjadikan hasil analisis sebagai dasar eksplorasi awal sebelum tahap pemodelan klasifikasi phishing.
+
 ### Pertanyaan Analisis (Statistik Deskriptif)
 1. Bagaimana karakteristik sebaran (pemusatan dan penyebaran) dari variabel numerik utama seperti panjang URL (`length_url`), panjang hostname (`length_hostname`), dan jumlah titik (`nb_dots`) pada dataset ini?
 2. Apakah URL dari situs *phishing* cenderung memiliki ukuran karakter (`length_url`) yang lebih panjang dan variasi yang lebih tinggi dibandingkan dengan URL situs aman (`legitimate`)?
